@@ -1,5 +1,3 @@
-
-
   // business logic
     var leapYear = function(year) {
       if ((year % 4 === 0) && (year % 100 !== 0) || (year % 400 === 0)) {
@@ -8,6 +6,7 @@
         return false;
       }
     };
+
 
     // user interface logic
     $(document).ready(function() {
